@@ -13,4 +13,3 @@ Available options:
    -AskProfile                           Asks for profile regardless of configuration file
    -IgnoreConfig                         Ignore usage of launcher configuration file completely
    -Help                                 This help summary
- 
