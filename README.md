@@ -1,6 +1,7 @@
 # AnomalyLauncher
 Anomaly Affinity Launcher by Eriol (2023)
 
+
 Purpose of this launcher is to start Anomaly with a CPU affinity where CPU 0 is excluded.
 This can ensure that the X-Ray Monolith engine does not use the most occupied core while the game is running.
 
