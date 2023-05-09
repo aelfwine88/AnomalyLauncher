@@ -1,7 +1,7 @@
 ﻿##[Ps1 To Exe]
 ##
 ##Kd3HDZOFADWE8uO1
-##Nc3NCtDXTlGDjpXU7jFk2WbhRiYEfMKat7+9wZPxrda/6XCIG9QdSlsX
+##Nc3NCtDXTlGDjofB6jhk2WrgTWUqYtyrq7mtwYKow8vitCjYRYMnQFlnmiyyDUiyOQ==
 ##Kd3HFJGZHWLWoLaVvnQnhQ==
 ##LM/RF4eFHHGZ7/K1
 ##K8rLFtDXTiW5
@@ -265,12 +265,13 @@ If ($h -or $Help) {
 	Write-Host
 	Write-Host "Purpose of this launcher is to start Anomaly with a CPU affinity where CPU 0 is excluded."
 	Write-Host "This can ensure that the X-Ray Monolith engine does not use the most occupied core while the game is running."
+	Write-Host "Launcher also configures High process priority and proper AppCompatFlags for the Anomaly binaries."
 	Write-Host
 	Write-Host "Available options:"
 	Write-Host
 	Write-Host "   -MO2_Exe `"PathToMO2Executable`"        Configures ModOrganizer.exe location"
 	Write-Host "   -MO2_Profile MO2Profile               Configures ModOrganizer profile to use (eg: DX11-AVX)"
-	Write-Host "   -Anomaly_Delay 5                      Configures delay in seconds before affinity applied"
+	Write-Host "   -Anomaly_Delay 5                      Configures delay in seconds before affinity applied (Default: 5)"
 	Write-Host "   -AskProfile                           Asks for profile regardless of configuration file"
 	Write-Host "   -IgnoreConfig                         Ignore usage of launcher configuration file completely"
 	Write-Host "   -Help                                 This help summary"
